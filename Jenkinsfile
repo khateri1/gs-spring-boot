@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Nexus running in Docker on your Mac
         NEXUS_URL            = 'http://host.docker.internal:8081'
-        NEXUS_REPO           = 'helloworld-raw-repo'
+        NEXUS_REPO           = 'helloworld-raw-repo2'
         NEXUS_CREDENTIALS_ID = 'nexus-admin'
     }
 
