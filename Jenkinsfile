@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
-            steps {
-                sh 'mvn clean package'
-            }
-        }
+stage('Build') {
+    steps {
+        sh 'chmod +x mvnw && ./mvnw clean package'
+    }
+}
     }
 }
